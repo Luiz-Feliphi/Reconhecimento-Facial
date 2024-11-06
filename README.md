@@ -1,7 +1,7 @@
 # Reconhecimento Facil OpenCV
 
 <p align="center">
-    <img src="img/exemplo.png" alt="Exemplo" height="500px">
+    <img src="https://pyimagesearch.com/wp-content/uploads/2018/06/face_recognition_opencv_example_02.jpg" alt="Exemplo" height="500px">
 </p>
 Projeto de reconhecimento facil com OpenCV - após treinamento das faces pelo algoritmo será capaz de fazer a detecção por frame
 
@@ -24,10 +24,15 @@ Crie um virtual env para empacotar suas libs Python
 python -m venv venv
 ```
 
-Ative sua virtual env
+Ative sua virtual env [Windows]
 
 ```
-source venv/bin/active
+venv/Script/Activate
+```
+Ative sua virtual env [Linux]
+
+```
+Source env/bin/Activate
 ```
 
 Use o PIP, gerenciador de pacotes do Python para instalar todos os requisitos
@@ -64,5 +69,5 @@ python reconhecedor_eigenfaces.py || python reconhecedor_fisherfaces.py || pytho
 * [Python](https://www.python.org/) - Python
 
 ## Authors
-
+* **Luiz Feliphi** - *Colaborador* - [luiz-feliphi](https://github.com/Luiz-Feliphi)
 * **David Lucas** - *Initial work* - [david-luk4s](https://github.com/david-luk4s)
